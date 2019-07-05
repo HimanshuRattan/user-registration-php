@@ -44,9 +44,9 @@
                     <form action="registration.php" method="post">    
                         <div class="form-input">
                             <label for="user1" class="text-muted">Name</label>
-                            <input type="text" id="user1" class="login-input" name="user" required>
+                            <input type="text" minlength="4" id="user1" class="login-input" name="user" required>
                             <label for="pass1" class="text-muted">Password</label>
-                            <input type="password" id="pass1" class="login-input" name="password" required>
+                            <input type="password" minlength="8" id="pass1" class="login-input" name="password" required>
                             <div class="text-center">
                                 <input type="submit" value="Register" class="login-btn">
                             </div>
@@ -59,6 +59,5 @@
         <!-- end card body -->
     </div>
 </div>
-
 </body>
 </html>

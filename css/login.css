@@ -14,6 +14,16 @@ body {
 	border: 0;
 	box-shadow: rgba(84, 86, 87, 0.25) 0 10px 15px;
 }
+@media only screen and (max-width: 600px) {
+	.card {
+		width: 390px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.card {
+		width: 310px;
+	}
+}
 .card-header {
 	background: #fff;
 	border-bottom: 0;

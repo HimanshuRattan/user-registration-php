@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['username'])){
-    header('location:index.php');
+    header('location:login.php');
 }
 ?>
 <html>
@@ -32,51 +32,12 @@ if(!isset($_SESSION['username'])){
     </div>
 </nav>
 <!-- end navbar -->
-<div class="container">
-<!-- buttons -->
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-    <button type="button" class="btn btn-link">Link</button>
-<!-- end buttons -->
-<!-- start alerts -->
-    <h3 class="mt-lg mb-4">
-        <span>Alerts</span>
-    </h3>
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-      <span class="alert-inner--icon"><i class="ni ni-like-2"></i></span>
-      <span class="alert-inner--text"><strong>Success!</strong> This is a success alert—check it out!</span>
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <div class="alert alert-info alert-dismissible fade show" role="alert">
-      <span class="alert-inner--icon"><i class="ni ni-bell-55"></i></span>
-      <span class="alert-inner--text"><strong>Info!</strong> This is an info alert—check it out!</span>
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-      <span class="alert-inner--icon"><i class="ni ni-bell-55"></i></span>
-      <span class="alert-inner--text"><strong>Warning!</strong> This is a warning alert—check it out!</span>
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-      <span class="alert-inner--icon"><i class="ni ni-support-16"></i></span>
-      <span class="alert-inner--text"><strong>Danger!</strong> This is an error alert—check it out!</span>
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <!-- end alerts -->
+<div class="container text-center">
+    <span>Yes! You have made it.</span>
+    <span>Take inspiration and build something cool!</span>
+    <span>We are here to help you out. Remember that we will review everyone's code and give feedback.</span>
+    <span>So nothing to worry about. Let's go!! <img src="images/rocket.svg" alt="rocket"></span>
+    <img src="images/giphy.gif" alt="gif">
 </div>
 <!-- end container -->
 
@@ -86,7 +47,7 @@ if(!isset($_SESSION['username'])){
     <div class="row align-items-center justify-content-md-between">
         <div class="col-md-6">
             &copy; 2019
-            <a href="https://www.himanshuweb.ml/" target="_blank">Himanshu</a>
+            <a href="https://www.himanshuweb.ml/" target="_blank">CDATS</a>
         </div>
         <div class="col-md-6">
             <ul class="nav nav-footer justify-content-end">
@@ -95,12 +56,6 @@ if(!isset($_SESSION['username'])){
                 </li>
                 <li class="nav-item">
                     <a href="http://www.srmuniv.ac.in/" class="nav-link">SRM</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link disabled">CDATS</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://github.com/HimanshuRattan" class="nav-link" target="_blank">Github</a>
                 </li>
             </ul>
         </div>

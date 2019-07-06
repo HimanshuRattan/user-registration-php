@@ -16,6 +16,6 @@ else {
     $iq=$mysqli->prepare("INSERT INTO users (username, passcode) VALUES(?,?)");
     $iq->bind_param('ss', $name, $pass);
     $iq->execute();
-    header('location:index.php');
+    header('location:login.php');
 }
 ?>

@@ -1,2 +1,3 @@
 # user-registration-php
-on it!
+Basic php mysql user registration and login.
+[Here](http://himanshu-rattan.epizy.com)

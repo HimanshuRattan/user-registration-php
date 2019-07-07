@@ -14,7 +14,7 @@ if($ar->num_rows) {
 }
 else {
     $iq=$mysqli->prepare("INSERT INTO users (username, passcode) VALUES(?,?)");
-    $iq->bind_param('ss', $name, $pass);
+    $iq->bind_param('ss', $name, $hashed_password);
     $iq->execute();
     header('location:login.php');
 }
